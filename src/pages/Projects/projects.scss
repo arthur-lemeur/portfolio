@@ -1,0 +1,7 @@
+.projectsWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(420px, 1fr));
+    grid-gap: 50px;
+    margin: 50px auto;
+    max-width: 75%;
+}

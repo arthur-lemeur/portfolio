@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Sansation_Light";
+  src: local("Sansation_Light"),
+  url("./assets/fonts/Sansation_Light.ttf") format("truetype");
+}

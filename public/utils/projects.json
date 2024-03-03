@@ -1,0 +1,111 @@
+[
+    {
+        "id": "1",
+        "cover": "/images/logos/logo-thorium.png",
+        "images": [
+            "/images/thorium/thorium1.png",
+            "/images/thorium/thorium2.png",
+            "/images/thorium/thorium3.png"
+        ],
+        "title": "Thorium Reader",
+        "description": "Thorium Reader est le lecteur EPUB de choix pour Windows 10 et 11, MacOS et Linux. Cette application EDRLab est en développement constant et vise à devenir une référence pour accéder aux publications EPUB 3 en format reflow ou fixed layout, aux audiobooks et récits visuels, aux documents PDF et aux ebooks accessibles DAISY 2.02 et 3, protégés ou non par LCP. Il est localisé dans un grand nombre de langues, chaque version offrant de nouvelles localisations.Des efforts considérables sont également faits pour rendre Thorium Reader très accessible aux personnes malvoyantes et dyslexiques.Cette application est gratuite, sans publicité ni fuite de données privées. C'est l'outil idéal pour les gros lecteurs, les usagers des bibliothèques et les étudiants.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "React",
+            "Typescript",
+            "Redux"
+        ],
+        "link": "https://www.edrlab.org/software/thorium-reader/",
+        "repo": "https://github.com/edrlab/thorium-reader"
+    },
+    {
+        "id": "2",
+        "cover": "/images/logos/logo-avh.png",
+        "images": [
+            "/images/avh/avh1.png",
+            "/images/avh/avh2.png",
+            "/images/avh/avh3.png",
+            "/images/avh/avh4.png"
+        ],
+        "title": "Lis Mon Livre",
+        "description": "Avec Valentin Lecture, écoutez les livres audio de l’Association Valentin Haüy. Éole, la bibliothèque numérique de la Médiathèque Valentin Haüy, propose plus de 65 000 titres en tout genre (https://eole.avh.asso.fr/moteur-de-recherche/audio). Avec Valentin Lecture, retrouvez les derniers best-sellers, vos auteurs préférés ou laissez-vous guider par les sélections de nos bibliothécaires. Valentin Lecture est destinée à toute personne qui ne peut pas lire du fait d’un handicap, d’un trouble cognitif, qu’il s’agisse de déficience visuelle, de dyslexie ou autre. Pour accéder à votre bibliothèque, dites simplement « Alexa, ouvre Valentin Lecture ». À la première utilisation, vous devrez vous identifier comme sur Éole. Ce ne sera plus nécessaire les fois suivantes.",
+        "technologies": [
+            "OpenDialog"
+        ],
+        "link": "https://www.amazon.fr/Association-Valentin-Ha%C3%BCy-Lecture/dp/B0C7L14SSY"
+    },
+    {
+        "id": "3",
+        "cover": "/images/logos/logo-ohmyfood.png",
+        "images": [
+            "/images/ohmyfood/omf1.png",
+            "/images/ohmyfood/omf2.jpeg",
+            "/images/ohmyfood/omf3.jpeg"
+        ],
+        "title": "Oh My Food",
+        "description": "Troisième projet du parcours 'Développeur web' chez OpenClassrooms. L'objectif d'intégrer puis de dynamiser une page web avec des animations CSS en utilisant le préprocesseur Sass",
+        "technologies": [
+            "HTML",
+            "SCSS"
+        ],
+        "link": "https://arthur-lemeur.github.io/OhmyFood/",
+        "repo": "https://github.com/arthur-lemeur/OhmyFood"
+    },
+    {
+        "id": "4",
+        "cover": "/images/logos/logo-menumaker.png",
+        "images": [
+            "/images/overwatch/overwatch1.png",
+            "/images/overwatch/overwatch2.png",
+            "/images/overwatch/overwatch3.png",
+            "/images/overwatch/overwatch4.gif"
+        ],
+        "title": "Menu Maker",
+        "description": "Septième projet du parcours 'Développeur web' chez OpenClassrooms. L'objectif de planifier le développement du site d'un client. Cela inclut la mise en place d'une veille technique, la définition des besoin techniques du projet, définir l'outil de gestion de projet et découper les différentes tâches.",
+        "technologies": [
+            "Google Alerts",
+            "Zapier",
+            "Trello",
+            "Google Drive"
+        ],
+        "link": "https://docs.google.com/presentation/d/1HNrUkd5IbGUx3POGHRnD4u_EqI-ZTr2hD2FiPLigOE8/edit?usp=drive_link"
+    },
+    {
+        "id": "5",
+        "cover": "/images/logos/logo-lina25.svg",
+        "images": [
+            "/images/Lina25/lina1.png",
+            "/images/Lina25/lina2.png",
+            "/images/Lina25/lina3.png"
+        ],
+        "title": "Lina25",
+        "description": "Grâce à une directive européenne, l'offre de livres accessibles connaitra une amélioration sans précédent à partir de 2025. De nouvelles obligations conduiront les éditeurs à prêter une attention particulière à l'accessibilité des titres publiés à compter de cette date : un site, LINA25, est en ligne pour les accompagner, notamment sur les volets techniques et légaux.",
+        "technologies": [
+            "Jekyll",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Markdown"
+        ],
+        "link": "https://www.lina25.fr/"
+    },
+    {
+        "id": "6",
+        "cover": "/images/logos/logo-edrlab.png",
+        "images": [
+            "/images/pubstore/pubstore1.png",
+            "/images/pubstore/pubstore2.png"
+        ],
+        "title": "Pubstore",
+        "description": "Pubstore est un site qui permet de générer des licenses LCP de test pour les développeurs d'applications de lecture d'EPUB. C'est un site de démonstration qui n'est actuellement pas destiné à être utilisé dans un environement de production.",
+        "technologies": [
+            "Go-template",
+            "HTML",
+            "CSS",
+            "Javascript"
+        ],
+        "link": "https://pubstore.edrlab.org/index",
+        "repo": "https://github.com/edrlab/pubstore"
+    }
+]

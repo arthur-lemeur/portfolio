@@ -1,0 +1,15 @@
+.contact {
+    margin-right: 20px;
+    h4 {
+        margin: 5px;
+    }
+    .contact_links {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        gap: 10px;
+        a:link {
+            color: var(--color-secondary);
+        }
+    }
+}

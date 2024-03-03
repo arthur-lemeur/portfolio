@@ -1,0 +1,41 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color-primary);
+	// background: linear-gradient(150deg, rgba(23,133,130,1) 0%, rgba(191,161,129,1) 50%, rgba(23,133,130,1) 150%);
+	background-size: 200% 100%;
+	animation: gradient 10s ease-in-out infinite;
+	height: 100vh;
+    color: var(--color-tertiary);
+	font-family: "Sansation_Light";
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.section-title {
+    font-family: "Sansation_Light";
+    font-size: 50px;
+    padding: 50px;
+	background: transparent;
+	animation: gradientText 10s ease infinite;
+	background: linear-gradient(-150deg, #904E55 0%, rgba(23,133,130,1) 50%, #904E55 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #000;
+	text-align: center;
+	background-size: 200% auto;
+	margin: 0;
+}
