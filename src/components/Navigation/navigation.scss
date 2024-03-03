@@ -10,6 +10,12 @@
         margin-right: 50px;
         padding-left: 50px;
 
+        @media (max-width: 1400px) {
+            flex-direction: row;
+            width: unset;
+            display: none;
+          }
+
         .cv {
             padding: 7px 10px;
             border: 1px solid var(--color-primary);
@@ -41,15 +47,16 @@
         font-weight: bold;
         text-decoration: none;
         transition: 200ms;
-            &:hover {
-                color: white!important;
-            }
+            // &:hover {
+            //     color: white!important;
+            // }
             &:visited {
                 color: black;
             }
         }
         .active {
             font-size: 35px;
+            color: var(--color-secondary)!important;
         }
     }
 }

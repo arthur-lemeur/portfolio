@@ -31,6 +31,10 @@
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 3px 10px 0 var(--color-primary);
+
+    @media (max-width: 1400px) {
+        left: unset;
+      }
     a {
         text-decoration: none;
         color: white;
