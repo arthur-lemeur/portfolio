@@ -4,7 +4,6 @@
     grid-gap: 50px;
     margin: 50px auto;
     max-width: 75%;
-
     @media (max-width: 1400px) {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
       }
