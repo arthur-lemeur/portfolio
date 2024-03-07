@@ -23,10 +23,10 @@
         "id": "2",
         "cover": "/images/logos/logo-avh.png",
         "images": [
-            "/images/avh/avh1.png",
-            "/images/avh/avh2.png",
-            "/images/avh/avh3.png",
-            "/images/avh/avh4.png"
+        "/images/AVH/avh1.png",
+            "/images/AVH/avh2.png",
+            "/images/AVH/avh3.png",
+            "/images/AVH/avh4.png"
         ],
         "title": "Lis Mon Livre",
         "description": "Avec Valentin Lecture, écoutez les livres audio de l’Association Valentin Haüy. Éole, la bibliothèque numérique de la Médiathèque Valentin Haüy, propose plus de 65 000 titres en tout genre (https://eole.avh.asso.fr/moteur-de-recherche/audio). Avec Valentin Lecture, retrouvez les derniers best-sellers, vos auteurs préférés ou laissez-vous guider par les sélections de nos bibliothécaires. Valentin Lecture est destinée à toute personne qui ne peut pas lire du fait d’un handicap, d’un trouble cognitif, qu’il s’agisse de déficience visuelle, de dyslexie ou autre. Pour accéder à votre bibliothèque, dites simplement « Alexa, ouvre Valentin Lecture ». À la première utilisation, vous devrez vous identifier comme sur Éole. Ce ne sera plus nécessaire les fois suivantes.",
@@ -75,9 +75,9 @@
         "id": "5",
         "cover": "/images/logos/logo-lina25.svg",
         "images": [
-            "/images/Lina25/lina1.png",
-            "/images/Lina25/lina2.png",
-            "/images/Lina25/lina3.png"
+            "/images/lina25/lina1.png",
+            "/images/lina25/lina2.png",
+            "/images/lina25/lina3.png"
         ],
         "title": "Lina25",
         "description": "Grâce à une directive européenne, l'offre de livres accessibles connaitra une amélioration sans précédent à partir de 2025. De nouvelles obligations conduiront les éditeurs à prêter une attention particulière à l'accessibilité des titres publiés à compter de cette date : un site, LINA25, est en ligne pour les accompagner, notamment sur les volets techniques et légaux.",
