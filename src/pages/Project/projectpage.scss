@@ -24,6 +24,12 @@
         .active_image {
             height: 500px;
             background-color: white;
+
+            @media (max-width: 1400px) {
+                height: unset;
+                max-width: 400px;
+              }
+              
             img {
                 box-shadow: 2px 3px 5px 4px grey;
                 height: inherit;
@@ -46,6 +52,12 @@
         border-radius: 15px;
         border: 1px solid var(--color-tertiary);
         width: fit-content;
+
+        @media (max-width: 1400px) {
+            max-width: 400px;
+            overflow: auto;
+          }
+
         img {
             height: inherit;
             max-width: 150px;
@@ -93,6 +105,11 @@
         color: var(--color-tertiary);
         text-align: start;
         line-height: 1.5;
+
+        @media (max-width: 1400px) {
+            gap: 30px;
+          }
+
         .project_tags {
             padding-top: 10px;
             display: flex;

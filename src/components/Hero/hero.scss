@@ -18,6 +18,11 @@
     animation: gradient 10s ease-in-out infinite;
     background-size: 200% 100%;
 
+    @media (max-width: 1400px) {
+        width: 90vw;
+        height: 300px;
+      }
+
     span {
         position: absolute;
         inset: 5px;
@@ -58,5 +63,9 @@
         color: #000;
         text-align: center;
         background-size: 200% auto;
+
+        @media (max-width: 1400px) {
+            font-size: 25px;
+          }
     }
 }

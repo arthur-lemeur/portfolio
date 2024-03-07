@@ -10,9 +10,15 @@
     border-radius: 5px;
     color: var(--color-tertiary);
     margin: auto;
+
     &:visited {
         color: var(--color-tertiary);
     }
+
+    @media (max-width: 1400px) {
+        width: 300px;
+        height: 300px;
+      }
 }
 
 .projectCard-container {
@@ -27,6 +33,12 @@
     cursor: pointer;
     font-family: "Sansation_Light";
     background: white;
+
+    @media (max-width: 1400px) {
+        width: 280px;
+        height: 280px;
+      }
+
     img {
         padding-top: 20px;
         height: 60%;
