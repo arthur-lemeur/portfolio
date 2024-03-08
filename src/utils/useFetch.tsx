@@ -5,6 +5,7 @@ export interface IProjects {
     title: string,
     cover: string,
     images: string[] | undefined,
+    imagesAlt: string,
     description: string,
     technologies: string[],
     link: string,
@@ -23,7 +24,6 @@ export default function useFetch() {
                 const data = await response.json()
                 setData(data)
 
-        console.log(data)
             } catch (error) {
                 console.log("error", error)
             }

@@ -90,7 +90,7 @@ const Carousel = (props: Partial<IProjects>) => {
 };
 
 const Gallery = (props: Partial<IProjects>) => {
-  const { images } = props;
+  const { images, imagesAlt } = props;
   const length = images?.length || 0;
   const [activeImage, setActiveImage] = React.useState(0);
 
@@ -99,11 +99,11 @@ const Gallery = (props: Partial<IProjects>) => {
       {images ?
       <>
         <div className="active_image">
-          <img src={images[activeImage]} />
+          <img src={images[activeImage]} alt={`${imagesAlt} ${activeImage + 1}`} />
         </div>
         <div className="slide_gallery">
           {images.map((image, i) => (
-            <img src={image}  onClick={() =>setActiveImage(i)} key={i}/>
+            <img src={image}  onClick={() =>setActiveImage(i)} key={i} alt={`${imagesAlt} ${i + 1}`}/>
           ))}
         </div>
       </>
@@ -126,11 +126,11 @@ export const ProjectPage = () => {
     return (
       <div style={{ width: "100vw", position: "relative" }} id="project" className="section">
         <div style={{width: "100vw", position: "relative" }} id="projects" className="section">
-          <h2 className="section-title">{currentProject?.title}</h2>
+          <h1 className="section-title">{currentProject?.title}</h1>
           <div className="projectWrapper">
             <div className="project_leftSide">
                 {currentProject? 
-              <Gallery images={currentProject.images} />
+              <Gallery images={currentProject.images} imagesAlt={currentProject.imagesAlt} />
               : <></>
                 }
             </div>

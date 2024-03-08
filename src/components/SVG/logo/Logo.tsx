@@ -5,7 +5,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 export const Logo = () => {
     return (
-        <Link to="/#home" smooth>
+        <Link to="/" smooth name="Crown Logo link to home" aria-label="lien vers la page d'accueil">
             <div className="logo">
                 <svg fill="currentColor" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                     width="800px" height="800px" viewBox="0 0 70 70" enableBackground="new 0 0 70 70">

@@ -10,7 +10,7 @@ export const ProjectComponent = (props: any) => {
                 <img src={props.images}/>
             </div>
             <div className="project_infos">
-                <h4>{props.title}</h4>
+                <h3>{props.title}</h3>
                 <p>{props.description}</p>
                 {props.technologies.map((techno: string) => {
                     <button key={props.id}>{techno}</button>

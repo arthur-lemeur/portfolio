@@ -23,7 +23,7 @@ export const About = () => {
                     </p>
                 </div>
                 <div className="about_image">
-                    <img src="./images/other/profile-picture.jpeg" alt="profile picture"/>
+                    <img src="./images/other/profile-picture.jpeg" alt="photo de profil de Arthur Le Meur"/>
                 </div>
             </div>
         </div>

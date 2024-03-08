@@ -9,9 +9,9 @@ export const ProjectCard = (props) => {
     return(
         <Link to={`/project/${props.id}`} className="projectCard_Link animate_slideInCard" style={{animationDuration: "1000ms", animationDelay: delay}}>
             <figure className="projectCard-container" >
-                <img src={props.cover}/>
+                <img src={props.cover} alt={props.coverAlt}/>
                 <figcaption>
-                    <h4>{props.title}</h4>
+                    <h3>{props.title}</h3>
                     {/* <div className="project_tags">
                             {props.technologies && props.technologies.map((techno: string, index: number) => (
                                 <span key={index}  className="tag">{techno}</span>
